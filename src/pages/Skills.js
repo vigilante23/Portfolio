@@ -28,19 +28,19 @@ function Skills() {
             ComputerVision
         </motion.div>
 
-        <Skill name='OpenCv' x='-5vw' y='-10vw' />
+        <Skill name='OpenCv' x='-5vw' y='-15vw' />
 
-        <Skill name='OCR' x='-20vw' y='2vw' />
+        <Skill name='OCR' x='-24vw' y='8vw' />
 
-        <Skill name='Next.js' x='20vw' y='-6vw' />
+        <Skill name='Next.js' x='25vw' y='-10vw' />
 
-        <Skill name='MachineLearning' x='0vw' y='12vw' />
+        <Skill name='MachineLearning' x='0vw' y='18vw' />
 
-        <Skill name='Python' x='32vw' y='-5vw' />
+        <Skill name='Python' x='32vw' y='5vw' />
 
-        <Skill name='DigitalMarketing' x='0vw' y='-20vw' />
+        <Skill name='DigitalMarketing' x='0vw' y='-28vw' />
 
-        <Skill name='Tailwind CSS' x='-32vw' y='-2vw' />
+        <Skill name='Tailwind CSS' x='-32vw' y='-5vw' />
 
 
     </div>

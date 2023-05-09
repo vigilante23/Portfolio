@@ -48,7 +48,7 @@ function about() {
             <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'> 
                 <h2 className='mb-4 text-lg font-bold uppercase text-dark/75'>Biography</h2>
             <p className='font-medium'>
-            Hi, I'm Digvijay Singh Nagarkoti, a Computer vision, Web and UI/UX developer with a passion for creating beautiful, functional, 
+            Hi, I'm Digvijay Singh Nagarkoti, a Computer vision engineer and website developer with a passion for creating beautiful, functional, 
 and user-centered digital experiences. With 2 years of experience in the field. I am always looking for 
 new and innovative ways to bring my clients' visions to life.
             </p>

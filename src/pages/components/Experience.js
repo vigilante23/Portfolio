@@ -48,7 +48,7 @@ md:w-[2px] md:left-[30px] xs:left-[20px]'/>
             
 
             <Details position='Machine Learning Associate Developer' company='HanuAI' companyLink='https://roadathena.com/'
-            time='January 2023 - April 2023' address='CPM-50 Phase 72 Mohali' work=' It is a startup innovative company which is building a product named as RoadAthena to analyze roads through ML. My role is in the feild of ComputerVision and OCR'/>
+            time='January 2023 - April 2023' address='CPM-50 Phase 72 Mohali' work=' It is an Artificial intelligence pothole detection startup company where my role is in the feild of Object Detection,Camera Calibration and Object Character Recognition.'/>
 
             </ul>
         </div>
