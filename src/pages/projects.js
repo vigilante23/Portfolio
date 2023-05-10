@@ -4,7 +4,13 @@ import Layout from './components/Layout'
 import AnimatedText from './components/AnimatedText'
 import Link from 'next/link'
 import Image from 'next/image'
-import projects1 from "../../public/images/projects/crypto-screener-cover-image.jpg"
+import projects1 from "../../public/images/projects/lightness1.jpg"
+import projects2 from "../../public/images/projects/color2.png"
+import projects3 from "../../public/images/projects/birds2.jpg"
+import projects4 from "../../public/images/projects/ocr2.jpeg"
+import projects5 from "../../public/images/projects/gpx.jpg"
+import projects6 from "../../public/images/projects/school.jpeg"
+
 import { motion } from 'framer-motion'
 import GithubIcon from './components/GithubIcon'
 
@@ -78,69 +84,68 @@ function projects() {
                 <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
                     <div className=' col-span-12 '>
                             <FeaturedProjects 
-                                title='Potholes Detection' 
+                                title='Lightness Detection' 
                                 img={projects1} 
-                                summary='An object detection real time based model using Yolov8 for detecting potholes and webcracks. For the annotation part I have used Cvat. 
+                                summary='An object detection real time based model using Yolov8 for detecting lightness in the image frame. For the annotation part I have used Cvat. 
                                 The project is based on real time data as I have recorded vedio then splitting vedio into per second frames and then annotate for detecting on the desired objects' 
-                                link="/"
-                                github="/"
-                                type= "Featured Project"  />
+                                link="https://github.com/vigilante23?tab=repositories"
+                                github="https://github.com/vigilante23?tab=repositories"
+                                type= "Yolov8"  />
                     </div>
                     
                     <div className=' col-span-6 sm:col-span-12'>
                             <Project
-                                title='Potholes Detection' 
-                                img={projects1} 
-                                summary='An object detection real time based model using Yolov8 for detecting potholes and webcracks. For the annotation part I have used Cvat. 
-                                The project is based on real time data as I have recorded vedio then splitting vedio into per second frames and then annotate for detecting on the desired objects' 
-                                link="/"
-                                github="/"
-                                type= "Featured Project"  />
+                                title='yellow color detection' 
+                                img={projects2} 
+                                summary=' An opencv project to detect yellow color through webcam  ' 
+                                link="https://github.com/vigilante23?tab=repositories"
+                                github="https://github.com/vigilante23?tab=repositories"
+                                type= "OpenCv"  />
 
                     </div>
 
                     <div className=' col-span-6 sm:col-span-12'>
                             <Project
-                                title='Potholes Detection' 
-                                img={projects1} 
+                                title='Object detection' 
+                                img={projects3} 
                                 summary='An object detection real time based model using Yolov8 for detecting potholes and webcracks. For the annotation part I have used Cvat. 
                                 The project is based on real time data as I have recorded vedio then splitting vedio into per second frames and then annotate for detecting on the desired objects' 
-                                link="/"
-                                github="/"
-                                type= "Featured Project"  />        
+                                link="https://github.com/vigilante23?tab=repositories"
+                                github="https://github.com/vigilante23?tab=repositories"
+                                type= " OpenCv "  />        
                     </div>
 
                     <div className=' col-span-12 '>
                             <FeaturedProjects 
-                                title='Potholes Detection' 
-                                img={projects1} 
-                                summary='An object detection real time based model using Yolov8 for detecting potholes and webcracks. For the annotation part I have used Cvat. 
-                                The project is based on real time data as I have recorded vedio then splitting vedio into per second frames and then annotate for detecting on the desired objects' 
-                                link="/"
-                                github="/"
-                                type= "Featured Project"  />    
+                                title='Object Character Recognition-(Reading Documents) ' 
+                                img={projects4} 
+                                summary='Reading of documents text and exctract the information from it. I used Pytesseract to read and recognize text 
+                                and openCv to remove all the background noises and alignment of the image.' 
+                                link="https://github.com/vigilante23?tab=repositories"
+                                github="https://github.com/vigilante23?tab=repositories"
+                                type= "OCR"  />    
                     </div>
                     
                     <div className=' col-span-6 sm:col-span-12'>
                             <Project
-                                title='Potholes Detection' 
-                                img={projects1} 
+                                title='Gpx Smoothner' 
+                                img={projects5} 
                                 summary='An object detection real time based model using Yolov8 for detecting potholes and webcracks. For the annotation part I have used Cvat. 
                                 The project is based on real time data as I have recorded vedio then splitting vedio into per second frames and then annotate for detecting on the desired objects' 
-                                link="/"
-                                github="/"
-                                type= "Featured Project"  />    
+                                link="https://github.com/vigilante23?tab=repositories"
+                                github="https://github.com/vigilante23?tab=repositories"
+                                type= "Gpx"  />    
                     </div>
 
                     <div className=' col-span-6 sm:col-span-12'>
                             <Project
-                                title='Potholes Detection' 
-                                img={projects1} 
+                                title='School management' 
+                                img={projects6} 
                                 summary='An object detection real time based model using Yolov8 for detecting potholes and webcracks. For the annotation part I have used Cvat. 
                                 The project is based on real time data as I have recorded vedio then splitting vedio into per second frames and then annotate for detecting on the desired objects' 
-                                link="/"
-                                github="/"
-                                type= "Featured Project"  />
+                                link="https://github.com/vigilante23?tab=repositories"
+                                github="https://github.com/vigilante23?tab=repositories"
+                                type= "NextJs"  />
                     </div>
 
                 </div>
